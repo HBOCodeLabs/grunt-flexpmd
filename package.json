@@ -1,13 +1,9 @@
 {
-  "name": "grunt-flexpmd",
+  "name": "@dpwolfe/grunt-flexpmd",
   "description": "A Grunt task plugin for running FlexPMD to lint/analyze apps built on Adobe Flex/ActionScript/MXML/Flash/AIR/etc. Think of it as \"ASLint\"/\"FlexLint\".",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/JamesMGreene/grunt-flexpmd",
-  "author": {
-    "name": "James M. Greene",
-    "email": "james.m.greene@gmail.com",
-    "url": "http://jamesgreene.net/"
-  },
+  "author": "James M. Greene <james.m.greene@gmail.com> (http://jamesgreene.net/)",
   "repository": {
     "type": "git",
     "url": "git://github.com/JamesMGreene/grunt-flexpmd.git"
@@ -15,35 +11,30 @@
   "bugs": {
     "url": "https://github.com/JamesMGreene/grunt-flexpmd/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/JamesMGreene/grunt-flexpmd/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0",
-    "npm": ">= 1.2.10"
+    "node": "^0.12.2",
+    "npm": "^2.7.4"
   },
   "scripts": {
     "test": "grunt travis --verbose"
   },
   "peerDependencies": {
-    "grunt": "~0.4.2",
-    "flexpmd": "^1.3.0-0"
+    "grunt": "^0.4.5",
+    "flexpmd": "^1.3.0-1"
   },
   "dependencies": {
-    "flexpmd": "^1.3.0-0",
-    "xmldom": "~0.1.19",
-    "xpath": "~0.0.6",
-    "async": "~0.2.10"
+    "flexpmd": "^1.3.0-1",
+    "xmldom": "^0.1.19",
+    "xpath": "^0.0.9",
+    "async": "^0.9.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-nodeunit": "~0.3.2",
-    "grunt": "~0.4.2"
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt": "^0.4.5"
   },
   "keywords": [
     "gruntplugin",
@@ -60,5 +51,8 @@
     "flv",
     "flash",
     "air"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
