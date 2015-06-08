@@ -1,7 +1,7 @@
 {
   "name": "@dpwolfe/grunt-flexpmd",
   "description": "A Grunt task plugin for running FlexPMD to lint/analyze apps built on Adobe Flex/ActionScript/MXML/Flash/AIR/etc. Think of it as \"ASLint\"/\"FlexLint\".",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/JamesMGreene/grunt-flexpmd",
   "author": "James M. Greene <james.m.greene@gmail.com> (http://jamesgreene.net/)",
   "repository": {
@@ -51,8 +51,5 @@
     "flv",
     "flash",
     "air"
-  ],
-  "directories": {
-    "test": "test"
-  }
+  ]
 }
