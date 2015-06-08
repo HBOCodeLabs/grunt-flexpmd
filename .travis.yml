@@ -1,8 +1,12 @@
+sudo: false
 language: node_js
 node_js:
-  - "0.8"
-  - "0.10"
-before_install:
-  - npm install npm -g
+  - 'iojs'
+  - '0.12'
 before_script:
   - npm install -g grunt-cli
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+    on_start: never
